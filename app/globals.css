@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset anchored sections below the fixed navbar */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
